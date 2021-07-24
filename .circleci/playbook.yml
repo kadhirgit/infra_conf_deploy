@@ -1,0 +1,6 @@
+ - name: Copy using the 'content' for inline data
+   hosts: all
+   tasks:
+    - copy:
+       content: '# This file was moved to /Users/machd/ansible by kadhir'
+       dest: '/home/ubuntu/msg.txt' 

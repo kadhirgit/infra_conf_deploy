@@ -6,6 +6,5 @@
       msg:
       - "Provisioning based on"
    - copy:
-      name: 'copy files'
       content: '# This file was moved to /Users/machd/ansible by kadhir'
       dest: '/home/ubuntu/msg.txt'

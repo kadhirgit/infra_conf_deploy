@@ -2,9 +2,6 @@
 - hosts: all    
 
   tasks:
-   - debug:
-      msg:
-      - "Provisioning based on"
    - copy:
-      content: '# This file was moved to /Users/machd/ansible by kadhir'
+      content: '# test content copied to /home/ubuntu/msg.txt'
       dest: '/home/ubuntu/msg.txt'

@@ -2,9 +2,9 @@
  - name: Copy using the 'content' for inline data
    hosts: all
    tasks:
-    - name: Create a new file with permissions
-       file:
-         path: "/root"
-         state: touch
-         mode: 0755
-         owner: root
+     - name: Create a new file with permissions
+        file:
+          path: "/root"
+          state: touch
+          mode: 0755
+          owner: root

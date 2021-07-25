@@ -1,6 +1,8 @@
 ---
+- hosts: all   
 
-- hosts: all
-  become: yes
+  become: yes   
+
   tasks:
-    - ping
+   - ping:
+       crash: data

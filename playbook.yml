@@ -3,5 +3,4 @@
 - hosts: all
   become: yes
   tasks:
-  - debug:
-      msg: "This is a test"
+    - ping

@@ -1,9 +1,5 @@
 ---
-
 - hosts: all
   tasks:
-  - name: Create a new file with permissions
-    file:
-      path: "/home"
-      state: touch
-      mode: 0755
+  - debug:
+      msg: "This is a test"

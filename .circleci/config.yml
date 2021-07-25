@@ -9,6 +9,8 @@ jobs:
       - run:
           name: Ensure backend infrastructure exist
           command: |
+            pwd
+            ls -all
             aws cloudformation deploy \
               --template-file file://~/project/template.yml \
               --stack-name my-stack --region ap-south-1

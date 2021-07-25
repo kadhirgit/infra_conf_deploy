@@ -1,7 +1,9 @@
----
+:---
 - hosts: all   
 
   become: yes   
 
   tasks:
-   - ping
+   - debug:
+      msg:
+      - "Provisioning based on"

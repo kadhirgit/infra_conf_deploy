@@ -4,5 +4,4 @@
   become: yes   
 
   tasks:
-   - ping:
-       crash: data
+   - ping
